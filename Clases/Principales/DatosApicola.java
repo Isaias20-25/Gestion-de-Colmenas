@@ -7,11 +7,11 @@ public class DatosApicola implements Serializable {
     // Lista de colmenas registradas en el sistema.
     public List<Colmena> colmenas;
 
-    // Lista de apicultores disponibles en el sistema.
-    public List<Apicultor> apicultores;
-
     // Mapa que asocia el ID de cada colmena con el apicultor asignado.
     public Map<String, Apicultor> asignaciones;
+    
+     // Lista de apicultores disponibles en el sistema.
+    public List<Apicultor> apicultores;
 
     // Constructor por defecto inicializando las colecciones
     public DatosApicola() {
